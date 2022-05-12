@@ -7,7 +7,9 @@
         <div class="row">
             <div class="col-12">
                 <h1>Elenco dei film:</h1>
-                {{ $name }}
+                <p>
+                    @dump($movies)
+                </p>
             </div>
         </div>
     </div>
